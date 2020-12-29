@@ -6,3 +6,43 @@
 
 2020-12-29T05:51:26+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 269
 
+2020-12-29T07:42:32+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 267
+
+2020-12-29T07:43:07+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 299
+
+2020-12-29T07:43:08+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 299
+
+2020-12-29T07:44:50+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 278
+
+2020-12-29T09:20:11+00:00 CRITICAL syntax error, unexpected '<' in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 282
+
+2020-12-29T10:03:25+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 109
+
+2020-12-29T10:03:37+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 309
+
+2020-12-29T10:03:38+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 309
+
+2020-12-29T10:03:50+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 306
+
+2020-12-29T10:03:50+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 306
+
+2020-12-29T10:21:59+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 110
+
+2020-12-29T13:20:03+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/home.php on line 409
+
+2020-12-29T13:20:48+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/home.php on line 408
+
+2020-12-29T13:20:49+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/home.php on line 408
+
+2020-12-29T13:20:49+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/home.php on line 408
+
+2020-12-29T13:20:49+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/home.php on line 408
+
+2020-12-29T14:04:07+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_categories() in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php:115
+Stack trace:
+#0 /home/cedcoss/Local Sites/test/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/test/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/test/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 115
+
