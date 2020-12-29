@@ -1,0 +1,8 @@
+2020-12-29T05:50:39+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 271
+
+2020-12-29T05:51:17+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 270
+
+2020-12-29T05:51:18+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 270
+
+2020-12-29T05:51:26+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 269
+

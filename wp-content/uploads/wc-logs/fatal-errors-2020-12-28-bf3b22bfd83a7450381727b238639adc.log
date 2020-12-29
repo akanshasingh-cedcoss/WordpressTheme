@@ -1,0 +1,4 @@
+2020-12-28T05:53:29+00:00 CRITICAL syntax error, unexpected '?', expecting end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/header.php on line 99
+
+2020-12-28T11:09:58+00:00 CRITICAL syntax error, unexpected end of file in /home/cedcoss/Local Sites/test/app/public/wp-content/themes/abc-blog-php/homepage-template.php on line 335
+
