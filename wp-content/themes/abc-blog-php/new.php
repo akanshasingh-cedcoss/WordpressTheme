@@ -11,13 +11,12 @@ get_header();
  <div class="main-banner header-text">
       <div class="container-fluid">
         <div class="owl-banner owl-carousel">
-            <?php $blog_posts = new WP_Query( array( 'post_type' => 'post', 'post_status’' => 'publish', 'posts_per_page' => 4 ) );?>
-            <?php if ( $blog_posts->have_posts() ) : ?>
-                <?php while ( $blog_posts->have_posts() ) : $blog_posts->the_post(); ?>
+            <?php $blog_posts = new WP_Query(array('post_type' => 'post', 'post_status’' => 'publish', 'posts_per_page' => 4 ));?>
+            <?php if ($blog_posts->have_posts()) : ?>
+                <?php while ($blog_posts->have_posts()) : $blog_posts->the_post(); ?>
             <div class="item">
-            <?php if ( has_post_thumbnail() ) { 
-            the_post_thumbnail( get_the_ID(), 'full' );
-            } ?>
+            <?php if (has_post_thumbnail()) {
+              the_post_thumbnail(get_the_ID(), 'full'); }?>
             <div class="item-content">
               <div class="main-content">
                 <div class="meta-category">
@@ -37,8 +36,7 @@ get_header();
             <p class = "no-blog-posts">
             <?php esc_html_e('Sorry, no posts matched your criteria.', 'theme-domain'); ?> 
             </p>
-            <?php endif; 
-            wp_reset_postdata(); ?>
+            <?php endif; wp_reset_postdata(); ?>
          
           
          
@@ -46,7 +44,7 @@ get_header();
       </div>
     </div>
     <?php
-get_footer();
+    get_footer();
 
 
 
